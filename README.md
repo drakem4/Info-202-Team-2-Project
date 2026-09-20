@@ -50,7 +50,7 @@ https://pokeapi.co/docs/v2
 Responsible for the Pokédex Search page, PokéAPI integration,
 GitHub integration, README content, and assisting with troubleshooting.
 
-### [Team Member Name] — Designer and Front-End Developer
+### [Deion Albert] — Designer and Front-End Developer
 Responsible for the Home page and assisting with the visual design
 and Bootstrap styling of the website.
 
