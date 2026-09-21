@@ -54,10 +54,10 @@ GitHub integration, README content, and assisting with troubleshooting.
 Responsible for the Home page and assisting with the visual design
 and Bootstrap styling of the website.
 
-### [Team Member Name] — Researcher and Developer
+### [Simeon Opare-Kumi] — Researcher and Developer
 Responsible for Group Members page, PokéAPI research/documentation, and accessibility checks.
 
-### [Team Member Name] - Presenter and Developer
+### [Reynold Njoku] - Presenter and Developer
 Responsible for Contact page, form validation, and final project demonstration/presentation.
 
 ## Setup
