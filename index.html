@@ -36,7 +36,29 @@
             max-width: 600px;
             margin: 50px auto;
         }
-    </style>
+   
+    
+.pokemon-card {
+  border-radius: 15px;
+  border: none;
+  padding: 15px;
+  transition: transform 0.3s ease;
+}
+
+.pokemon-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.pokemon-card img {
+  height: 200px;
+  object-fit: contain;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+</style>
 </head>
 
 <body>
@@ -77,6 +99,51 @@
         </div>
 
     </header>
+
+<!-- Pokemon Images Section -->
+<section class="container text-center my-5">
+  <h2 class="mb-4">Meet Some Pokémon!</h2>
+
+  <div class="row justify-content-center g-4">
+
+    <!-- Pikachu -->
+    <div class="col-6 col-md-4">
+      <div class="card pokemon-card shadow-sm h-100">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/25.png"
+             class="card-img-top" alt="Pikachu">
+        <div class="card-body">
+          <h5>Pikachu</h5>
+          <p>Electric Type</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Charizard -->
+    <div class="col-6 col-md-4">
+      <div class="card pokemon-card shadow-sm h-100">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/6.png"
+             class="card-img-top" alt="Charizard">
+        <div class="card-body">
+          <h5>Charizard</h5>
+          <p>Fire / Flying Type</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bulbasaur -->
+    <div class="col-6 col-md-4">
+      <div class="card pokemon-card shadow-sm h-100">
+        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png"
+             class="card-img-top" alt="Bulbasaur">
+        <div class="card-body">
+          <h5>Bulbasaur</h5>
+          <p>Grass / Poison Type</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
 
 
     <!-- About Section -->
